@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Book Store.exe" version="1.0.0.4" publicKeyToken="d491cb7ba6e729f9" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="icons.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Book Store" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Book Store.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Book Store.exe" size="1078784">
+      <assemblyIdentity name="Book Store" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>qCGvku/s0EAUpnp7Q0yVBw5IKRqA/X1UbrEniO9qryQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Book Store.exe.config" size="789">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>yOJHZ66/7k9h5ugoaPw9uiXgbV9Bi1EUlYA5H8qvrvE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons.ico" size="38078">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>hTRADM8gRVDdQZBZtq8mHZXGQ8T/tvxQAELmfDptBPs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-TD2OJPK\sumit singh" issuerKeyHash="853b7e53ab09cab6c5020fb1879dca387374731e" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>7rgqOEEFioTzy6srjOPYZCDc73p+xyy2cmMoQIQEBok=</DigestValue></Reference></SignedInfo><SignatureValue>VJwxbFe5s7a6NPqTDwtusut8QrTfPzzPsvStbCfVJIjhE7GYsolsHpkJPnQX0B4ANnX3hRhdHI6EJbc+9FaMU+g2Sdd0QBWohhD+YWLMjebcPigxxTCGONZQp2bNLwwVeUbb3n/nZjJp6/ENaPET9TKiZJbaCnLxu1CSNoIu95E=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>3iJwxoJI8TbR+MiO9SxQJ5eOYy/2BVwlWhpPdiawb4FFsI7YM7J/MwkP2HrOQ8wLD3sh8g4vAURkgLbeqqL4mSjEWEGskIHeBFhyDFcFbY6YtXkNPtv8rFy+EYaAYX6Yr2FVhWpb35W2htueEzmfVl0SBGyryzI/byq2/1KtiiU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="8906048440286372b62cc77e7aefdc2064d8e38c2babcbf3848a0541382ab8ee" Description="" Url=""><as:assemblyIdentity name="Book Store.exe" version="1.0.0.4" publicKeyToken="d491cb7ba6e729f9" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-TD2OJPK\sumit singh</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>1OU6t1V3Z0SwkfTPlgC1o3o2iWBzewmPbSrtJkRiiCo=</DigestValue></Reference></SignedInfo><SignatureValue>HxEczTLpJWmfEBzBOu3WrL/hehcPwF7UnuxsT0QiHHzkpkcG6VTvx+vAW36iNZL5+TAE0kKLuBwmF8IqHuMA8hSXyq303k6ERWOcj0jWluI4xafythBvLLYVtayyXeZTY1rVzCGPCE5n6IzMUBwCjCj0dXt23to4aOlMbZUY8zI=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>3iJwxoJI8TbR+MiO9SxQJ5eOYy/2BVwlWhpPdiawb4FFsI7YM7J/MwkP2HrOQ8wLD3sh8g4vAURkgLbeqqL4mSjEWEGskIHeBFhyDFcFbY6YtXkNPtv8rFy+EYaAYX6Yr2FVhWpb35W2htueEzmfVl0SBGyryzI/byq2/1KtiiU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICBTCCAW6gAwIBAgIQKWyoqqPu/bpCKztsEMgIyDANBgkqhkiG9w0BAQsFADBBMT8wPQYDVQQDHjYARABFAFMASwBUAE8AUAAtAFQARAAyAE8ASgBQAEsAXABzAHUAbQBpAHQAIABzAGkAbgBnAGgwHhcNMTkwMjA5MTgyOTI2WhcNMjAwMjEwMDAyOTI2WjBBMT8wPQYDVQQDHjYARABFAFMASwBUAE8AUAAtAFQARAAyAE8ASgBQAEsAXABzAHUAbQBpAHQAIABzAGkAbgBnAGgwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAN4icMaCSPE20fjIjvUsUCeXjmMv9gVcJVoaT3YmsG+BRbCO2DOyfzMJD9h6zkPMCw97IfIOLwFEZIC23qqi+JkoxFhBrJCB3gRYcgxXBW2OmLV5DT7b/KxcvhGGgGF+mK9hVYVqW9+VtobbnhM5n1ZdEgRsq8syP28qtv9SrYolAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAfpD0okLnNi4R9BIwZeQk5ASQRd6CK0e8jNaeb+VoKmyXQ24MQ+J7JvkSCR+xV06TxC4F2XioZf/l+pEEXtkkjbJhunoPYENOdEp/+2BhX04nslrbiCMVxpl6gRHGBeaOcw1tTXIlN0+KsJrKwVdXiBh8TzGNn7yroE+WU/gr4do=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

@@ -1,0 +1,58 @@
+F:\book store\book store\bin\Debug\book store.exe.config
+F:\book store\book store\bin\Debug\book store.exe
+F:\book store\book store\bin\Debug\book store.pdb
+F:\book store\book store\bin\Debug\book store.xml
+F:\book store\book store\obj\Debug\book_store.Form1.resources
+F:\book store\book store\obj\Debug\book_store.Resources.resources
+F:\book store\book store\obj\Debug\book store.vbproj.GenerateResource.Cache
+F:\book store\book store\obj\Debug\book store.exe
+F:\book store\book store\obj\Debug\book store.xml
+F:\book store\book store\obj\Debug\book store.pdb
+F:\book store\book store\obj\Debug\book_store.Login.resources
+F:\book store\book store\obj\Debug\book_store.MainForm.resources
+F:\book store\book store\obj\Debug\book_store.SalesForm.resources
+F:\book store\book store\obj\Debug\book_store.SalesView.resources
+F:\book store\book store\obj\Debug\book_store.PurchaseForm.resources
+F:\book store\book store\obj\Debug\book_store.purchaseview.resources
+F:\book store\book store\obj\Debug\book_store.Books.resources
+F:\book store\book store\obj\Debug\book_store.customer.resources
+F:\book store\book store\obj\Debug\book_store.seller.resources
+F:\book store\book store\obj\Debug\book_store.book_r.resources
+F:\book store\book store\obj\Debug\book_store.customer_r.resources
+F:\book store\book store\obj\Debug\book_store.seller_R.resources
+F:\book store\book store\obj\Debug\book_store.setting.resources
+F:\book store\book store\obj\Debug\book_store.Security.resources
+F:\book store\book store\obj\Debug\book_store.Stock.resources
+F:\book store\book store\bin\Debug\book store.exe.manifest
+F:\book store\book store\bin\Debug\book store.application
+F:\book store\book store\obj\Debug\book store.exe.manifest
+F:\book store\book store\obj\Debug\book store.application
+F:\SEM4\VB\book store\book store\bin\Debug\Book Store.exe.config
+F:\SEM4\VB\book store\book store\obj\Debug\Book Store.exe
+F:\SEM4\VB\book store\book store\obj\Debug\Book Store.xml
+F:\SEM4\VB\book store\book store\obj\Debug\Book Store.pdb
+F:\SEM4\VB\book store\book store\bin\Debug\Book Store.exe.manifest
+F:\SEM4\VB\book store\book store\bin\Debug\Book Store.application
+F:\SEM4\VB\book store\book store\bin\Debug\Book Store.exe
+F:\SEM4\VB\book store\book store\bin\Debug\Book Store.pdb
+F:\SEM4\VB\book store\book store\bin\Debug\Book Store.xml
+F:\SEM4\VB\book store\book store\obj\Debug\book_store.Books.resources
+F:\SEM4\VB\book store\book store\obj\Debug\book_store.book_r.resources
+F:\SEM4\VB\book store\book store\obj\Debug\book_store.customer.resources
+F:\SEM4\VB\book store\book store\obj\Debug\book_store.customer_r.resources
+F:\SEM4\VB\book store\book store\obj\Debug\book_store.Form1.resources
+F:\SEM4\VB\book store\book store\obj\Debug\book_store.Login.resources
+F:\SEM4\VB\book store\book store\obj\Debug\book_store.MainForm.resources
+F:\SEM4\VB\book store\book store\obj\Debug\book_store.Resources.resources
+F:\SEM4\VB\book store\book store\obj\Debug\book_store.PurchaseForm.resources
+F:\SEM4\VB\book store\book store\obj\Debug\book_store.purchaseview.resources
+F:\SEM4\VB\book store\book store\obj\Debug\book_store.SalesForm.resources
+F:\SEM4\VB\book store\book store\obj\Debug\book_store.SalesView.resources
+F:\SEM4\VB\book store\book store\obj\Debug\book_store.Security.resources
+F:\SEM4\VB\book store\book store\obj\Debug\book_store.seller.resources
+F:\SEM4\VB\book store\book store\obj\Debug\book_store.seller_R.resources
+F:\SEM4\VB\book store\book store\obj\Debug\book_store.setting.resources
+F:\SEM4\VB\book store\book store\obj\Debug\book_store.Stock.resources
+F:\SEM4\VB\book store\book store\obj\Debug\book store.vbproj.GenerateResource.Cache
+F:\SEM4\VB\book store\book store\obj\Debug\Book Store.exe.manifest
+F:\SEM4\VB\book store\book store\obj\Debug\Book Store.application

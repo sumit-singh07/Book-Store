@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <configSections>
+    </configSections>
+    <connectionStrings>
+        <add name="book_store.My.MySettings.Book_StoreConnectionString"
+            connectionString="Data Source=DESKTOP-TD2OJPK;Initial Catalog=&quot;Book Store&quot;;User ID=sa;Password=sumit123"
+            providerName="System.Data.SqlClient" />
+        <add name="book_store.My.MySettings.Book_StoreConnectionString1"
+            connectionString="Data Source=DESKTOP-TD2OJPK;Initial Catalog=&quot;Book Store&quot;;Integrated Security=True"
+            providerName="System.Data.SqlClient" />
+    </connectionStrings>
+    <startup>
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.6.1" />
+    </startup>
+</configuration>

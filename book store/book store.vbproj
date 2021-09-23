@@ -1,0 +1,456 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{70063A44-A1C7-4CD1-9A88-8CEF26F7EEEF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>book_store.My.MyApplication</StartupObject>
+    <RootNamespace>book_store</RootNamespace>
+    <AssemblyName>Book Store</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>F:\book store\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>5</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Book Store.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Book Store.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>FA5C4EDA2B2342374F637CEDE280F7E8641A0DA6</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>book store_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icons.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="book.Designer.vb">
+      <DependentUpon>book.vb</DependentUpon>
+    </Compile>
+    <Compile Include="book.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="book_r.Designer.vb">
+      <DependentUpon>book_r.vb</DependentUpon>
+    </Compile>
+    <Compile Include="book_r.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Book_StoreDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Book_StoreDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Book_StoreDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Book_StoreDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Book_StoreDataSet21.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Book_StoreDataSet21.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Book_StoreDataSet3.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Book_StoreDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Book_StoreDataSet7.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Book_StoreDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="customer.Designer.vb">
+      <DependentUpon>customer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="customer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="customer_r.Designer.vb">
+      <DependentUpon>customer_r.vb</DependentUpon>
+    </Compile>
+    <Compile Include="customer_r.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.vb">
+      <DependentUpon>MainForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="PurchaseForm.Designer.vb">
+      <DependentUpon>PurchaseForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PurchaseForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="purchaseview.Designer.vb">
+      <DependentUpon>purchaseview.vb</DependentUpon>
+    </Compile>
+    <Compile Include="purchaseview.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalesForm.Designer.vb">
+      <DependentUpon>SalesForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SalesForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalesView.Designer.vb">
+      <DependentUpon>SalesView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SalesView.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Security.Designer.vb">
+      <DependentUpon>Security.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Security.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="seller.Designer.vb">
+      <DependentUpon>seller.vb</DependentUpon>
+    </Compile>
+    <Compile Include="seller.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="seller_R.Designer.vb">
+      <DependentUpon>seller_R.vb</DependentUpon>
+    </Compile>
+    <Compile Include="seller_R.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="setting.Designer.vb">
+      <DependentUpon>setting.vb</DependentUpon>
+    </Compile>
+    <Compile Include="setting.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stock.Designer.vb">
+      <DependentUpon>Stock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Stock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="book.resx">
+      <DependentUpon>book.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="book_r.resx">
+      <DependentUpon>book_r.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="customer.resx">
+      <DependentUpon>customer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="customer_r.resx">
+      <DependentUpon>customer_r.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PurchaseForm.resx">
+      <DependentUpon>PurchaseForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="purchaseview.resx">
+      <DependentUpon>purchaseview.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalesForm.resx">
+      <DependentUpon>SalesForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalesView.resx">
+      <DependentUpon>SalesView.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Security.resx">
+      <DependentUpon>Security.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="seller.resx">
+      <DependentUpon>seller.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="seller_R.resx">
+      <DependentUpon>seller_R.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="setting.resx">
+      <DependentUpon>setting.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stock.resx">
+      <DependentUpon>Stock.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="book store_TemporaryKey.pfx" />
+    <None Include="Book_StoreDataSet.xsc">
+      <DependentUpon>Book_StoreDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Book_StoreDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Book_StoreDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Book_StoreDataSet.xss">
+      <DependentUpon>Book_StoreDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Book_StoreDataSet1.xsc">
+      <DependentUpon>Book_StoreDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Book_StoreDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Book_StoreDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Book_StoreDataSet1.xss">
+      <DependentUpon>Book_StoreDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Book_StoreDataSet21.xsc">
+      <DependentUpon>Book_StoreDataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="Book_StoreDataSet21.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Book_StoreDataSet21.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Book_StoreDataSet21.xss">
+      <DependentUpon>Book_StoreDataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="Book_StoreDataSet3.xsc">
+      <DependentUpon>Book_StoreDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="Book_StoreDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Book_StoreDataSet3.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Book_StoreDataSet3.xss">
+      <DependentUpon>Book_StoreDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="Book_StoreDataSet7.xsc">
+      <DependentUpon>Book_StoreDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="Book_StoreDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Book_StoreDataSet7.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Book_StoreDataSet7.xss">
+      <DependentUpon>Book_StoreDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\purchase new 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Purchase white 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\report 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sales White 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Setting 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\setting2 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\customer 50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\purchase new 50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shopping bag 50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sales-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-back-to-45.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-next-page-45.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\customer 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-menu-45.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-back-to-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-menu-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\book 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\book_r 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\report1 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\report2 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\seller 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icons.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

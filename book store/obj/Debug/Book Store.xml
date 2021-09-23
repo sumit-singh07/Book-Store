@@ -1,0 +1,388 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+BookStore
+</name>
+</assembly>
+<members>
+<member name="T:book_store.Book_StoreDataSet3.customerDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:book_store.Book_StoreDataSet3.sellerDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:book_store.Book_StoreDataSet3.customerRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:book_store.Book_StoreDataSet3.sellerRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:book_store.Book_StoreDataSet3.customerRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:book_store.Book_StoreDataSet3.sellerRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:book_store.Book_StoreDataSet3">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:book_store.Book_StoreDataSet3TableAdapters.customerTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:book_store.Book_StoreDataSet3TableAdapters.sellerTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:book_store.Book_StoreDataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(book_store.Book_StoreDataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:book_store.Book_StoreDataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(book_store.Book_StoreDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:book_store.Book_StoreDataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(book_store.Book_StoreDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:book_store.Book_StoreDataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:book_store.Book_StoreDataSet3TableAdapters.TableAdapterManager.UpdateAll(book_store.Book_StoreDataSet3)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:book_store.Book_StoreDataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:book_store.Book_StoreDataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:book_store.Book_StoreDataSet3TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:book_store.Book_StoreDataSet2.booksDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:book_store.Book_StoreDataSet2.booksRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:book_store.Book_StoreDataSet2.booksRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:book_store.Book_StoreDataSet2">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:book_store.Book_StoreDataSet2TableAdapters.booksTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:book_store.Book_StoreDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(book_store.Book_StoreDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:book_store.Book_StoreDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(book_store.Book_StoreDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:book_store.Book_StoreDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(book_store.Book_StoreDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:book_store.Book_StoreDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:book_store.Book_StoreDataSet2TableAdapters.TableAdapterManager.UpdateAll(book_store.Book_StoreDataSet2)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:book_store.Book_StoreDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:book_store.Book_StoreDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:book_store.Book_StoreDataSet2TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:book_store.Book_StoreDataSet1.purchaseDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:book_store.Book_StoreDataSet1.purchaseRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:book_store.Book_StoreDataSet1.purchaseRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:book_store.Book_StoreDataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:book_store.Book_StoreDataSet1TableAdapters.purchaseTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:book_store.Book_StoreDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(book_store.Book_StoreDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:book_store.Book_StoreDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(book_store.Book_StoreDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:book_store.Book_StoreDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(book_store.Book_StoreDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:book_store.Book_StoreDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:book_store.Book_StoreDataSet1TableAdapters.TableAdapterManager.UpdateAll(book_store.Book_StoreDataSet1)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:book_store.Book_StoreDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:book_store.Book_StoreDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:book_store.Book_StoreDataSet1TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:book_store.Book_StoreDataSet7.stockDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:book_store.Book_StoreDataSet7.stockRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:book_store.Book_StoreDataSet7.stockRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:book_store.Book_StoreDataSet7">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:book_store.Book_StoreDataSet7TableAdapters.stockTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:book_store.Book_StoreDataSet7TableAdapters.TableAdapterManager.UpdateUpdatedRows(book_store.Book_StoreDataSet7,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:book_store.Book_StoreDataSet7TableAdapters.TableAdapterManager.UpdateInsertedRows(book_store.Book_StoreDataSet7,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:book_store.Book_StoreDataSet7TableAdapters.TableAdapterManager.UpdateDeletedRows(book_store.Book_StoreDataSet7,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:book_store.Book_StoreDataSet7TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:book_store.Book_StoreDataSet7TableAdapters.TableAdapterManager.UpdateAll(book_store.Book_StoreDataSet7)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:book_store.Book_StoreDataSet7TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:book_store.Book_StoreDataSet7TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:book_store.Book_StoreDataSet7TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:book_store.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:book_store.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:book_store.My.Resources.Resources.book_32">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:book_store.My.Resources.Resources.book_r_32">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:book_store.My.Resources.Resources.customer_32">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:book_store.My.Resources.Resources.customer_50">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:book_store.My.Resources.Resources.home_32">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:book_store.My.Resources.Resources.icons8_back_to_32">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:book_store.My.Resources.Resources.icons8_back_to_45">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:book_store.My.Resources.Resources.icons8_menu_32">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:book_store.My.Resources.Resources.icons8_menu_45">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:book_store.My.Resources.Resources.icons8_next_page_45">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:book_store.My.Resources.Resources.purchase_new_32">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:book_store.My.Resources.Resources.purchase_new_50">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:book_store.My.Resources.Resources.Purchase_white_32">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:book_store.My.Resources.Resources.report_32">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:book_store.My.Resources.Resources.report1_32">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:book_store.My.Resources.Resources.report2_32">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:book_store.My.Resources.Resources.sales_50">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:book_store.My.Resources.Resources.Sales_White_32">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:book_store.My.Resources.Resources.seller_32">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:book_store.My.Resources.Resources.Setting_32">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:book_store.My.Resources.Resources.setting2_32">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:book_store.My.Resources.Resources.shopping_bag_50">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:book_store.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:book_store.Book_StoreDataSet.salesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:book_store.Book_StoreDataSet.salesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:book_store.Book_StoreDataSet.salesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:book_store.Book_StoreDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:book_store.Book_StoreDataSetTableAdapters.salesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:book_store.Book_StoreDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(book_store.Book_StoreDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:book_store.Book_StoreDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(book_store.Book_StoreDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:book_store.Book_StoreDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(book_store.Book_StoreDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:book_store.Book_StoreDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:book_store.Book_StoreDataSetTableAdapters.TableAdapterManager.UpdateAll(book_store.Book_StoreDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:book_store.Book_StoreDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:book_store.Book_StoreDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:book_store.Book_StoreDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>
